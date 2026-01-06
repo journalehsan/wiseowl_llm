@@ -551,3 +551,97 @@ WiseOwl v1 is successful if:
 > It needs to be **more careful than confident humans under pressure**.
 
 That is enough to ship.
+
+---
+
+# 🎯 v1 Priority Guidelines (Preventing Scope Creep)
+
+## The Classic Trap: Product Becomes Galaxy Before Lamp 🌌🪔
+
+WiseOwl must avoid becoming a "galaxy before lamp" - a project so complex it never becomes useful. These guidelines keep it **buildable by one dev, useful early, and safe to evolve**.
+
+---
+
+## The "v1 Spine" (Keep This Sacred)
+
+These 6 items form the core value proposition:
+
+1. **Ingest** (IMAP/EWS email connectivity)
+2. **Classify + Priority** (Worker model email processing)
+3. **AI Insights + Suggestions** (UI integration)
+4. **Task/Reminder Creation** (User-confirmed actions)
+5. **Daily Digest** (Summarized insights)
+6. **Reviewer Gate + Audit Trail** (Safety and trust)
+
+**If you ship just this spine, users will already feel: "this is different."**
+
+---
+
+## The "v1 Muscles" (Add Only After Spine Works)
+
+These extend the spine without compromising timeline:
+
+* Behavior learning (open/reply/dismiss signals)
+* Better views (Actionable / Waiting items)
+* Meeting suggestions
+* Second-model consultation (high-stakes, low-confidence only)
+
+---
+
+## The "v2 Dreams" (Park Them Safely)
+
+These are powerful but belong to future releases:
+
+* Per-user adapters / training
+* Queen model learning loops  
+* Deep personalization beyond retrieval
+* Advanced multi-model orchestration
+
+---
+
+## 🔴 One Rule That Will Save Months
+
+**If a feature can't be explained as:**
+
+> "It makes the user trust WiseOwl more *today*"
+
+**it's probably a v2 feature.**
+
+---
+
+## 🛤️ Implementation Strategy
+
+### Phase 1: Spine First (Weeks 1-4)
+Focus on getting emails in, classified, and showing basic AI insights.
+
+### Phase 2: Muscles Next (Weeks 5-8)  
+Add the learning loops and better UI once trust is established.
+
+### Phase 3: Dreams Later (Future)
+Tackle advanced personalization when users are asking for it.
+
+---
+
+## 🧭 Decision Framework
+
+When evaluating any new feature, ask:
+
+1. Does this make WiseOwl **more trustworthy** today?
+2. Can this be **implemented with retrieval only** initially?
+3. Is this **user-confirmable** (no irreversible AI actions)?
+4. Does this **serve the spine** or distract from it?
+
+---
+
+## 🏁 Success Definition
+
+**v1 is successful when:**
+
+* Users can point to specific AI insights that saved them time
+* The audit trail makes every AI decision explainable
+* The system improves with use (even simple usage signals)
+* One developer can understand and maintain the entire codebase
+
+---
+
+**You're not shrinking the vision. You're staging it so it can actually land.** 🦉⚙️
